@@ -26,10 +26,10 @@ end
   Cocktail.create(name: Faker::Coffee.blend_name)
 end
 
-10.times do
-  Dose.create(
-    ingredient: Ingredient.all.sample,
-    description: ,
-    cocktail: Cocktail.all.sample
-    )
-end
+# 10.times do
+#   Dose.create(
+#     ingredient: Ingredient.all.sample,
+#     description: ,
+#     cocktail: Cocktail.all.sample
+#     )
+# end
