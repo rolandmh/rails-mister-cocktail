@@ -36,6 +36,11 @@ gem 'simple_form'
 
 gem 'dotenv-rails', groups: [:development, :test]
 
+gem 'cloudinary', '~> 1.9.1'
+
+gem 'carrierwave', '~> 1.2'
+
+
 gem 'faker'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
